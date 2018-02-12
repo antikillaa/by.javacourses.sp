@@ -1,8 +1,8 @@
 package by.javacourse.sp.math;
 
-import objectsJava.obj.Car;
-import objectsJava.obj.Cat;
-import objectsJava.obj.Tv;
+import by.javacourse.sp.objectsJava.obj.Car;
+import by.javacourse.sp.objectsJava.obj.Cat;
+import by.javacourse.sp.objectsJava.obj.Tv;
 
 public class actions {
 

@@ -1,4 +1,4 @@
-package objectsJava.obj;
+package by.javacourse.sp.objectsJava.obj;
 
 public class Car {
     private String brand;
