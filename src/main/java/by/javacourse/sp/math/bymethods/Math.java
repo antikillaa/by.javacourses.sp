@@ -7,10 +7,8 @@ public class Math {
         int x = doings.getX();
     doings.setY( 6 );
         int y = doings.getY();
-    doings.setZ( 0 );
-        int z = doings.getZ();
 
-    Steps.One();
+    doings.One();
 
     }
 }
