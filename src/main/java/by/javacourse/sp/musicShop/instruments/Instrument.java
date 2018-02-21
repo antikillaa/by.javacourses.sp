@@ -58,7 +58,4 @@ public class Instrument {
         this.description = description;
     }
 
-    public void instrumentInfo() {
-        System.out.println(price + brand + model + type + color + description);
-    }
 }

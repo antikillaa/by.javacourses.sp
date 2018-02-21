@@ -22,7 +22,6 @@ public class Pianos extends Instrument{
 
     public void pianoInfo() {
         Instrument instrumentInfo = new Instrument();
-        instrumentInfo.instrumentInfo();
         System.out.println(numberOfButtons + formatOfPiano);
 
     }

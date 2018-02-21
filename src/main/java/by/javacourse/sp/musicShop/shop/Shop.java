@@ -8,17 +8,15 @@ public class Shop {
 
     public static void main(String[] args) {
 
-        Guitars guitarsAll = new Guitars();
         GuitarModels gibsonLesPaul = new GuitarModels();
         gibsonLesPaul.GibsonLesPaul();
 
         GuitarModels gibsonSD = new GuitarModels();
         gibsonSD.gibsonSD();
 
-
         GuitarModels[] guitars = {gibsonLesPaul, gibsonSD};
 
-        guitarsAll.guitarsInfo();
+        System.out.println(guitars);
 
     }
 }

@@ -40,9 +40,8 @@ public class Guitars extends Instrument {
    }
 
    public void guitarsInfo() {
-      Instrument instrumentInfo = new Instrument();
-      instrumentInfo.instrumentInfo();
-      System.out.println(numberOfStrings + typeOfBridge + typeOfGuitar + pickups);
+
+      System.out.println(getPrice() + getBrand() + getModel() + getType() + getColor() + getDescription() + numberOfStrings + typeOfBridge + typeOfGuitar + pickups);
 
    }
 }
